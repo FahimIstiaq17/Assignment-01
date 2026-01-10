@@ -66,6 +66,10 @@ nav .menu a {
   color: white;
   cursor: pointer;
 }
+.btn:hover {
+  background-color: #55b67d;
+}
+
 .btn-secondary {
   background-color: transparent;
   outline: 5px;
@@ -77,6 +81,10 @@ nav .menu a {
   color: white;
   cursor: pointer;
 }
+.btn-secondary:hover {
+  background-color: #469165;
+}
+
 .btn-secondary-content {
   display: flex;
   align-items: center;
@@ -117,14 +125,13 @@ nav .menu a {
 
 .notes-container {
   max-width: 1360px;
-  margin: 0  auto;
-  
+  margin: 0 auto;
 }
-.section-heading{
-    max-width: 1360px;
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 44px;
+.section-heading {
+  max-width: 1360px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 44px;
 }
 
 .section-heading h2 {
@@ -140,30 +147,30 @@ nav .menu a {
 }
 
 .items {
+  justify-content: center;
   display: flex;
   gap: 24px;
+  align-items: stretch;
 }
 
-.items .card {
+.card {
   padding: 69.5px 24px;
-  max-width: 322px;
-  box-shadow: 0 0 8px 0 #0000000F;
+  box-shadow: 0 0 8px 0 #0000000f;
   border-radius: 8px;
+  text-align: center;
 }
-.items .card img {
-  border: 30px solid #F95555;
-  max-width: 32px;
+.card img {
+  background-color: #f95555;
+  padding: 20px;
   border-radius: 50%;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 .items .card h4 {
-  max-width: 274px;
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 16px;
 }
-.items .card p{
-  max-width: 274px;
+.items .card p {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -177,19 +184,18 @@ nav .menu a {
 }
 
 #solution {
-    max-width: 1360px;
-    text-align: center;
-    margin: 0 auto;
+  max-width: 1360px;
+  text-align: center;
+  margin: 0 auto;
 }
 .sol-con {
   display: flex;
- padding-top: 120px;
- padding-bottom: 120px;
-  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-.knowledge-png{
-  max-width: 600px;
-}
+
 .sol-details {
   max-width: 700px;
   padding: 120px 0px 120px 60px;
@@ -201,32 +207,105 @@ nav .menu a {
   color: #469165;
   font-weight: 500;
   font-size: 16px;
- line-height: 20px;
- padding-bottom: 16px;
+  line-height: 20px;
+  padding-bottom: 16px;
 }
 .sol-head h2 {
   max-width: 700px;
   color: #001931;
   font-weight: bold;
   font-size: 48px;
- padding-bottom: 16px;
+  padding-bottom: 16px;
 }
 .sol-head p {
   max-width: 700px;
   color: #627382;
   font-weight: 400;
   font-size: 16px;
- padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 .list {
-max-width: 700px;
-text-align: left;
+  max-width: 700px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.list .list1 .list2 .list3 .list4 {
-  max-width: 382px;
-  color: #001931;
-  font-weight: 500;
+.list1,
+.list2,
+.list3,
+.list4 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 16px;
-  line-height: 20px;
+  align-items: center;
+}
+
+#get-access {
+  max-width: 1360px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+.get-access-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  /* border: 1px solid red; */
+  background-color: #f7f6f2;
+  border-radius: 12px;
+}
+.get-access-heading h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #001931;
+  padding-bottom: 16px;
+}
+.get-access-heading p {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  padding-bottom: 24px;
+}
+
+.p-top-16 {
+  padding-top: 16px;
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  background-color: #001931;
+}
+.footer{
+  max-width: 1360px;
+  margin: auto;
+  padding: 120px 0 30px 0;
+}
+.divider{
+  border: 1px solid rgba(229, 231, 235, 0.308);
+  margin-top: 80px;
+}
+.footer-para{
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.social-title{
+  color: white;
+  font-size: 20px;
+}
+.social-logo{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 16px;
+  cursor: pointer;
 }
