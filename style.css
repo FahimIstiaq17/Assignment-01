@@ -117,7 +117,8 @@ nav .menu a {
 
 .notes-container {
   max-width: 1360px;
-  margin: 0 auto;
+  margin: 0  auto;
+  
 }
 .section-heading{
     max-width: 1360px;
@@ -145,7 +146,6 @@ nav .menu a {
 
 .items .card {
   padding: 69.5px 24px;
-  /* border: 1px solid red; */
   max-width: 322px;
   box-shadow: 0 0 8px 0 #0000000F;
   border-radius: 8px;
@@ -174,4 +174,59 @@ nav .menu a {
   display: grid;
   place-items: center;
   height: auto;
+}
+
+#solution {
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+}
+.sol-con {
+  display: flex;
+ padding-top: 120px;
+ padding-bottom: 120px;
+  /* border: 1px solid red; */
+}
+.knowledge-png{
+  max-width: 600px;
+}
+.sol-details {
+  max-width: 700px;
+  padding: 120px 0px 120px 60px;
+  text-align: left;
+}
+
+.sol-head h5 {
+  max-width: 700px;
+  color: #469165;
+  font-weight: 500;
+  font-size: 16px;
+ line-height: 20px;
+ padding-bottom: 16px;
+}
+.sol-head h2 {
+  max-width: 700px;
+  color: #001931;
+  font-weight: bold;
+  font-size: 48px;
+ padding-bottom: 16px;
+}
+.sol-head p {
+  max-width: 700px;
+  color: #627382;
+  font-weight: 400;
+  font-size: 16px;
+ padding-bottom: 40px;
+}
+.list {
+max-width: 700px;
+text-align: left;
+}
+
+.list .list1 .list2 .list3 .list4 {
+  max-width: 382px;
+  color: #001931;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
