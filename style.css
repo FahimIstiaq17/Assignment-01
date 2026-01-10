@@ -83,10 +83,10 @@ nav .menu a {
   justify-content: center;
   gap: 5px;
 }
-.gap{
-    display: flex;
-    gap: 16px;
-    justify-content: center;
+.gap {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
 }
 
 .hero-access {
@@ -109,4 +109,69 @@ nav .menu a {
   margin-bottom: 16px;
   line-height: 2;
   font-size: 18px;
+}
+
+#notes {
+  padding-top: 50px;
+}
+
+.notes-container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.section-heading{
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 44px;
+}
+
+.section-heading h2 {
+  color: #001931;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+.section-heading p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.items {
+  display: flex;
+  gap: 24px;
+}
+
+.items .card {
+  padding: 69.5px 24px;
+  /* border: 1px solid red; */
+  max-width: 322px;
+  box-shadow: 0 0 8px 0 #0000000F;
+  border-radius: 8px;
+}
+.items .card img {
+  border: 30px solid #F95555;
+  max-width: 32px;
+  border-radius: 50%;
+  margin-bottom: 16px; 
+}
+.items .card h4 {
+  max-width: 274px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.items .card p{
+  max-width: 274px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+#notes .items .card {
+  display: grid;
+  place-items: center;
+  height: auto;
 }
